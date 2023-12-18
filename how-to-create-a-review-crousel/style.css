@@ -1,0 +1,104 @@
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 10;
+    padding: 10;
+}
+
+body {
+    background-color: #91C8E4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.title h2 {
+    color: #333;
+}
+
+.underline {
+    height: 3px;
+    background-color: #4682A9;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.review {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.img-container {
+    margin-bottom: 20px;
+}
+
+#person-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#author {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#job {
+    color: #4682A9;
+}
+
+#info {
+    color: #444;
+    line-height: 1.6;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.prev-btn,
+.next-btn {
+    background-color: #fff; 
+    border: none;
+    cursor: pointer;
+}
+
+.prev-btn i,
+.next-btn i {
+    font-size: 24px; 
+    color: #4682A9; 
+}
+
+.random-btn {
+    background-color: #fff;
+    color: #749BC2;
+    border: 2px solid #749BC2;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.random-btn:hover {
+    background-color: #749BC2; 
+    color: #fff;
+}
